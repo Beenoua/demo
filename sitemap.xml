@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- الصفحة الرئيسية -->
+  <url>
+    <loc>https://www.drchamaelmanjra.com/index.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- صفحة المدونة الرئيسية -->
+  <url>
+    <loc>https://www.drchamaelmanjra.com/blog.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- صفحة الأبحاث -->
+  <url>
+    <loc>https://www.drchamaelmanjra.com/resources/researches/researches.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- مقالات المدونة -->
+  <url>
+    <loc>https://www.drchamaelmanjra.com/blog/articles/article-1.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.drchamaelmanjra.com/blog/articles/article-2.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.drchamaelmanjra.com/blog/articles/article-3.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.drchamaelmanjra.com/blog/articles/article-4.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.drchamaelmanjra.com/blog/articles/article-5.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.drchamaelmanjra.com/blog/articles/article-6.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- الصفحات العامة -->
+  <url>
+    <loc>https://www.drchamaelmanjra.com/pages/page-1.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.drchamaelmanjra.com/pages/page-2.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.drchamaelmanjra.com/pages/page-3.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.drchamaelmanjra.com/pages/page-4.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.drchamaelmanjra.com/pages/page-5.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.drchamaelmanjra.com/pages/page-6.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.drchamaelmanjra.com/pages/page-7.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.drchamaelmanjra.com/pages/page-8.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.drchamaelmanjra.com/pages/page-9.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <!-- صفحة الخطأ 404 -->
+  <url>
+    <loc>https://www.drchamaelmanjra.com/404.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.20</priority>
+  </url>
+
+</urlset>

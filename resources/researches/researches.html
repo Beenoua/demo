@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/Dr-Chama-Elmanjra-Gastro-entérologue-&-Hépatologue-à-Marrakech-icon.ico" type="image/x-icon">
+    <link rel="manifest" href="/manifest.json">
+    <!-- بيانات Schema لصفحة عرض الأبحاث -->
+<!-- اسم الصفحة -->
+<meta name="schema:name:fr" content="Recherches et Contributions Scientifiques">
+<meta name="schema:name:en" content="Scientific Research and Contributions">
+<meta name="schema:name:ar" content="الأبحاث والمساهمات العلمية">
+
+<!-- وصف الصفحة -->
+<meta name="schema:description:fr" content="Une collection des publications et recherches menées par Dr. Chama Elmanjra.">
+<meta name="schema:description:en" content="A collection of publications and research conducted by Dr. Chama Elmanjra.">
+<meta name="schema:description:ar" content="مجموعة من المنشورات والأبحاث التي أجرتها الدكتورة شامة المنجرة.">
+
+<!-- حاوية لوضع شيفرة JSON-LD الموّلدة لصفحة الأبحاث -->
+<!-- ضع هذا الوسم مباشرة قبل إغلاق وسم body -->
+<script id="researches-schema-container" type="application/ld+json"></script>
+
+    
+    <meta name="page-title:fr" content="Recherche scientifique - Dr Shama El Manjara | Gastro-entérologue à Marrakech">
+    <meta name="page-title:en" content="Scientific Research - Dr. Shama El Manjara | Gastroenterologist in Marrakech">
+    <meta name="page-title:ar" content="الأبحاث العلمية - د. شامة المنجرة | طبيب الجهاز الهضمي بمراكش">
+    <title>Recherche scientifique - Dr Shama Al-Manjara | Gastro-entérologue à Marrakech</title>
+    
+    <meta data-lang-key="metaDescriptions2" name="description" content="اطلع على الأبحاث والمساهمات العلمية للدكتورة شامة المنجرة، أخصائية أمراض الجهاز الهضمي والكبد في مراكش.">
+    <meta name="keywords" content="أبحاث علمية, أمراض الجهاز الهضمي, الدكتورة شامة المنجرة, مقالات طبية, Scientific research, Gastroenterology, Dr. Chama Elmanjra, medical articles, recherche scientifique, gastro-entérologie, articles médicaux">
+    <meta property="og:title" content="الأبحاث العلمية - الدكتورة شامة المنجرة">
+    <meta property="og:description" content="مجموعة الأبحاث والمساهمات العلمية للدكتورة شامة المنجرة في مجال أمراض الجهاز الهضمي والكبد.">
+    <meta property="og:image" content="https://www.drchamaelmanjra.com/images/Dr-Chama-Elmanjra-Gastro-entérologue-&-Hépatologue-à-Marrakech-Social-Media.webp">
+    <meta property="og:url" content="https://www.drchamaelmanjra.com/resources/researches/researches.html">
+    <meta property="og:type" content="website">
+
+    <!-- Tailwind CSS -->
+    <script src="/assets/js/tailwind.js"></script>
+    <!-- Google Fonts (Inter + Cairo) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="/assets/css/fonts.css" rel="stylesheet" defer/>
+    <link href="/assets/css/fonts-2.css" defer rel="stylesheet"/>
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="/assets/css/style-mini.css"/>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+
+    <!-- Header & Language Switcher -->
+    <header class="bg-white shadow-md" dir="ltr">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="/">
+                <img src="/assets/images/Dr-Chama-Elmanjra-Gastro-entérologue-&-Hépatologue-à-Marrakech-logo.webp" loading="lazy" alt="Logo Dr. Chama Elmanjra logo" class="h-12 md:h-16">
+            </a>
+            <div class="flex items-center space-x-2 md:space-x-4">
+           
+                <div class="flex items-center space-x-2">
+                    <button id="btn-fr-header" class="lang-btn active px-3 py-1 text-sm font-medium rounded-md bg-gray-200 text-gray-700 hover:bg-[var(--brand-primary)] hover:text-white">FR</button>
+                    <button id="btn-en-header" class="lang-btn px-3 py-1 text-sm font-medium rounded-md bg-gray-200 text-gray-700 hover:bg-[var(--brand-primary)] hover:text-white">EN</button>
+                    <button id="btn-ar-header" class="lang-btn px-3 py-1 text-sm font-medium rounded-md bg-gray-200 text-gray-700 hover:bg-[var(--brand-primary)] hover:text-white">AR</button>
+                </div>
+                <a href="#form" class="bg-[var(--brand-primary)] hover:bg-opacity-90 text-white font-bold py-2 px-4 rounded-md text-sm transition duration-300 hidden" onclick="openContactModal(document.documentElement.lang)">
+                    <span class="cta-fr">Prendre RDV</span>
+                    <span class="cta-en hidden">Book Now</span>
+                    <span class="cta-ar hidden">احجز موعد</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- French Content -->
+        <div id="lang-fr" class="language-content ltr">
+            <section class="text-center py-12 md:py-20 px-6 bg-white">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Recherches et Contributions Scientifiques</h1>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Une collection des publications et recherches menées par Dr. Chama Elmanjra dans le domaine de la gastro-entérologie.</p>
+            </section>
+            <section class="py-16 bg-gray-50">
+                <div class="container mx-auto px-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        
+                        <!-- Card 1 -->
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Syndrome de Caroli: à propos d'un cas et revue de la littérature</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">Une maladie congénitale rare caractérisée par une dilatation kystique des voies biliaires intrahépatiques, souvent associée à une fibrose hépatique.</p>
+                            <a href="/resources/researches/pdfs/Caroli-Syndrome-About-a-Case-Report-and-a-Review-of-the-Literature.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Télécharger PDF</a>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Occlusion intestinale due à une bandelette congénitale chez l'adulte</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">Rapport de deux cas d'occlusion de l'intestin grêle chez des adultes causée par des bandelettes péritonéales congénitales, une condition extrêmement rare.</p>
+                            <a href="/resources/researches/pdfs/Intestinal-Obstruction-Due-to-a-Congenital-Band-Two-Cases-of-Congenital-bands-in-Adults.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Télécharger PDF</a>
+                        </div>
+                        
+                        <!-- Card 3 -->
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Douleur abdominale persistante révélant un myélome multiple</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">Étude de cas sur une présentation atypique du myélome multiple avec une atteinte extra-médullaire des ganglions lymphatiques, manifestée par une douleur abdominale chronique.</p>
+                            <a href="/resources/researches/pdfs/Persistent-Abdominal-Pain-with-an-Uncommon-Presentation-of-Multiple-Myeloma-A-Case-Study.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Télécharger PDF</a>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Cholangite biliaire primitive chez l'homme : une présentation rare</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">Rapport de deux cas rares de cholangite biliaire primitive (CBP) chez des hommes, une maladie auto-immune cholestatique affectant principalement les femmes.</p>
+                            <a href="/resources/researches/pdfs/Primary-Biliary-Cholangitis-in-Men-A-Rare-and-Particular-Presentation-About-2-Cases-and-Review-of-the-Literature.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Télécharger PDF</a>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Nodule de Sœur Marie-Joseph révélant un cancer du pancréas</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">Rapport de cas sur un nodule ombilical métastatique (nodule de Sœur Marie-Joseph) comme premier signe d'un adénocarcinome pancréatique avancé.</p>
+                            <a href="/resources/researches/pdfs/Sister-Mary-Joseph-Nodule-A Dermatological-Insight-into-Metastatic-Pancreatic-Cancer.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Télécharger PDF</a>
+                        </div>
+
+                        <!-- Card 6 -->
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Syndrome de l'artère mésentérique supérieure (Syndrome de Wilkie)</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">Une cause vasculaire rare de compression du duodénum entre l'aorte et l'artère mésentérique supérieure, entraînant une obstruction intestinale haute.</p>
+                            <a href="/resources/researches/pdfs/SuperiorMesenteric-Artery-Syndrome-or-Wilkies-Syndrome-About-a-Case-Report-and-a-Review-of-the-Literature.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Télécharger PDF</a>
+                        </div>
+
+                        <!-- Card 7 -->
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Lymphome de Hodgkin révélé par une ascite chyleuse</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">Rapport de cas sur une présentation inhabituelle du lymphome non hodgkinien, manifestée par une accumulation de liquide lymphatique dans l'abdomen.</p>
+                            <a href="/resources/researches/pdfs/Unusual Unveiling Hodgkins Lymphoma Manifesting as Chylous Ascites.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Télécharger PDF</a>
+                        </div>
+
+                        <!-- Card 8 -->
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Présentation inhabituelle de la tuberculose digestive</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">Un cas rare de tuberculose ano-périnéale isolée, se manifestant par une fistule récurrente et des ulcérations chroniques, sans atteinte pulmonaire.</p>
+                            <a href="/resources/researches/pdfs/Unusual-Presentation-of-Digestive-Tuberculosis-About-A-Case-Report.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Télécharger PDF</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- English Content -->
+        <div id="lang-en" class="language-content ltr hidden">
+            <section class="text-center py-12 md:py-20 px-6 bg-white">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Scientific Research and Contributions</h1>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">A collection of publications and research conducted by Dr. Chama Elmanjra in the field of gastroenterology.</p>
+            </section>
+            <section class="py-16 bg-gray-50">
+                <div class="container mx-auto px-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- All 8 cards would be duplicated here with English text -->
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Caroli Syndrome: About a Case Report and a Review of the Literature</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">A rare congenital disorder characterized by cystic dilatation of the intrahepatic bile ducts, often associated with hepatic fibrosis.</p>
+                            <a href="/resources/researches/pdfs/Caroli-Syndrome-About-a-Case-Report-and-a-Review-of-the-Literature.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Download PDF</a>
+                        </div>
+                         <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Intestinal Obstruction Due to a Congenital Band in Adults</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">Report of two cases of small bowel obstruction in adults caused by congenital peritoneal bands, an extremely rare condition.</p>
+                            <a href="/resources/researches/pdfs/Intestinal-Obstruction-Due-to-a-Congenital-Band-Two-Cases-of-Congenital-bands-in-Adults.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Download PDF</a>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Persistent Abdominal Pain Revealing Multiple Myeloma</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">Case study of an atypical presentation of multiple myeloma with extramedullary lymph node involvement, manifested by chronic abdominal pain.</p>
+                            <a href="/resources/researches/pdfs/Persistent-Abdominal-Pain-with-an-Uncommon-Presentation-of-Multiple-Myeloma-A-Case-Study.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Download PDF</a>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Primary Biliary Cholangitis in Men: A Rare Presentation</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">Report of two rare cases of primary biliary cholangitis (PBC) in men, a cholestatic autoimmune disease that predominantly affects women.</p>
+                            <a href="/resources/researches/pdfs/Primary-Biliary-Cholangitis-in-Men-A-Rare-and-Particular-Presentation-About-2-Cases-and-Review-of-the-Literature.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Download PDF</a>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Sister Mary Joseph Nodule Revealing Pancreatic Cancer</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">Case report on a metastatic umbilical nodule (Sister Mary Joseph nodule) as the first sign of an advanced pancreatic adenocarcinoma.</p>
+                            <a href="/resources/researches/pdfs/Sister-Mary-Joseph-Nodule-A Dermatological-Insight-into-Metastatic-Pancreatic-Cancer.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Download PDF</a>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Superior Mesenteric Artery Syndrome (Wilkie's Syndrome)</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">A rare vascular cause of duodenal compression between the aorta and the superior mesenteric artery, leading to upper intestinal obstruction.</p>
+                            <a href="/resources/researches/pdfs/SuperiorMesenteric-Artery-Syndrome-or-Wilkies-Syndrome-About-a-Case-Report-and-a-Review-of-the-Literature.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Download PDF</a>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Hodgkin's Lymphoma Revealed by Chylous Ascites</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">Case report of an unusual presentation of non-Hodgkin's lymphoma, manifested by the accumulation of lymphatic fluid in the abdomen.</p>
+                            <a href="/resources/researches/pdfs/Unusual Unveiling Hodgkins Lymphoma Manifesting as Chylous Ascites.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Download PDF</a>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">Unusual Presentation of Digestive Tuberculosis</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">A rare case of isolated ano-perineal tuberculosis, presenting with a recurrent fistula and chronic ulcerations, without pulmonary involvement.</p>
+                            <a href="/resources/researches/pdfs/Unusual-Presentation-of-Digestive-Tuberculosis-About-A-Case-Report.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">Download PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Arabic Content -->
+        <div id="lang-ar" class="language-content rtl hidden">
+            <section class="text-center py-12 md:py-20 px-6 bg-white">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">الأبحاث والمساهمات العلمية</h1>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">مجموعة من المنشورات والأبحاث التي أجرتها الدكتورة شامة المنجرة في مجال أمراض الجهاز الهضمي.</p>
+            </section>
+            <section class="py-16 bg-gray-50">
+                <div class="container mx-auto px-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- All 8 cards would be duplicated here with Arabic text -->
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">متلازمة كارولي: تقرير حالة ومراجعة للأدبيات</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">اضطراب خلقي نادر يتميز بتوسع كيسي في القنوات الصفراوية داخل الكبد، وغالباً ما يرتبط بتليف الكبد.</p>
+                            <a href="/resources/researches/pdfs/Caroli-Syndrome-About-a-Case-Report-and-a-Review-of-the-Literature.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">تحميل PDF</a>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">انسداد معوي بسبب شريط خلقي لدى البالغين</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">تقرير عن حالتين من انسداد الأمعاء الدقيقة لدى البالغين بسبب أشرطة بريتونية خلقية، وهي حالة نادرة للغاية.</p>
+                            <a href="/resources/researches/pdfs/Intestinal-Obstruction-Due-to-a-Congenital-Band-Two-Cases-of-Congenital-bands-in-Adults.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">تحميل PDF</a>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">ألم بطني مستمر يكشف عن ورم نقوي متعدد</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">دراسة حالة لعرض غير نمطي للورم النقوي المتعدد مع إصابة خارج النخاع في العقد الليمفاوية، ظهر على شكل ألم بطني مزمن.</p>
+                            <a href="/resources/researches/pdfs/Persistent-Abdominal-Pain-with-an-Uncommon-Presentation-of-Multiple-Myeloma-A-Case-Study.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">تحميل PDF</a>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">التهاب الأقنية الصفراوية الأولي عند الرجال: عرض نادر</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">تقرير عن حالتين نادرتين من التهاب الأقنية الصفراوية الأولي (PBC) لدى الرجال، وهو مرض مناعي ذاتي ركودي يصيب النساء بشكل أساسي.</p>
+                            <a href="/resources/researches/pdfs/Primary-Biliary-Cholangitis-in-Men-A-Rare-and-Particular-Presentation-About-2-Cases-and-Review-of-the-Literature.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">تحميل PDF</a>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">عقيدة الأخت ماري جوزيف كاشفة لسرطان البنكرياس</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">تقرير حالة عن عقيدة سرية نقيلية (عقيدة الأخت ماري جوزيف) كأول علامة لسرطان غدي بنكرياسي متقدم.</p>
+                            <a href="/resources/researches/pdfs/Sister-Mary-Joseph-Nodule-A Dermatological-Insight-into-Metastatic-Pancreatic-Cancer.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">تحميل PDF</a>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">متلازمة الشريان المساريقي العلوي (متلازمة ويلكي)</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">سبب وعائي نادر لانضغاط الاثني عشر بين الشريان الأورطي والشريان المساريقي العلوي، مما يؤدي إلى انسداد معوي علوي.</p>
+                            <a href="/resources/researches/pdfs/SuperiorMesenteric-Artery-Syndrome-or-Wilkies-Syndrome-About-a-Case-Report-and-a-Review-of-the-Literature.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">تحميل PDF</a>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">ورم هودجكين اللمفي يتجلى على شكل استسقاء كيلوسي</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">تقرير حالة عن عرض غير عادي لورم الغدد اللمفاوية اللاهودجكيني، يظهر على شكل تراكم للسائل اللمفاوي في البطن.</p>
+                            <a href="/resources/researches/pdfs/Unusual Unveiling Hodgkins Lymphoma Manifesting as Chylous Ascites.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">تحميل PDF</a>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center card-hover-effect">
+                            <div class="mb-4 text-[var(--brand-primary)]"><i class="fas fa-file-pdf fa-3x"></i></div>
+                            <h2 class="text-xl font-bold text-gray-800 mb-2 h-14 line-clamp-2">عرض غير عادي لمرض السل الهضمي</h2>
+                            <p class="text-gray-600 mb-4 h-24 line-clamp-3">حالة نادرة من السل الشرجي العجاني المعزول، تظهر على شكل ناسور متكرر وتقرحات مزمنة، دون إصابة رئوية.</p>
+                            <a href="/resources/researches/pdfs/Unusual-Presentation-of-Digestive-Tuberculosis-About-A-Case-Report.pdf" target="_blank" class="w-full bg-[var(--brand-primary-light)] text-[var(--brand-primary)] font-semibold px-4 py-2 rounded-full hover:bg-green-200 transition mt-auto">تحميل PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer class="bg-slate-900 text-white pt-16 pb-8">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 text-center md:text-start">
+             <!-- Section: معلومات الاتصال -->
+             <div>
+                <h2 class="font-bold text-lg mb-4 cta-fr">Coordonnées</h2>
+                <h2 class="font-bold text-lg mb-4 cta-en hidden">Contact Info</h2>
+                <h2 class="font-bold text-lg mb-4 cta-ar hidden">معلومات الاتصال</h2>
+                <p class="text-slate-400 mb-4 cta-fr"><span>17, Route de Safi, Centre d'affaires Tasnime, Imm. F, Bureau N° 10, 2ème étage, Marrakech.</span></p>
+                <p class="text-slate-400 mb-4 cta-en hidden"><span>7, Route de Safi, Tasnime Business Center, Bldg. F, Office N° 10, 2nd floor, Marrakech.</span></p>
+                <p class="text-slate-400 mb-4 cta-ar hidden"><span>17، طريق آسفي، مركز تسنيم للأعمال، عمارة F، مكتب رقم 10، الطابق الثاني، مراكش.</span></p>
+            <p class="text-slate-400"><span dir="ltr">0524 20 12 11</span></p>
+            <p class="text-slate-400"><span dir="ltr">0772 77 45 00</span></p>
+            <p class="text-slate-400"><span dir="ltr">dr.elmanjrachama@gmail.com</span></p>
+            </div>    
+                <!-- Section: الصفحات الأساسية -->
+                <div>
+                    <h2 class="font-bold text-lg mb-4 cta-fr">Pages Essentielles</h2>
+                    <h2 class="font-bold text-lg mb-4 cta-en hidden">Essential Pages</h2>
+                    <h2 class="font-bold text-lg mb-4 cta-ar hidden">الصفحات الأساسية</h2>
+                    <nav class="space-y-2">
+                        <!-- About Link -->
+                        <a href="/pages/about-us.html" class="block text-slate-400 hover:text-white transition-colors cta-fr">À Propos du Médecin</a>
+                        <a href="/pages/about-us.html" class="block text-slate-400 hover:text-white transition-colors cta-en hidden">About The Doctor</a>
+                        <a href="/pages/about-us.html" class="block text-slate-400 hover:text-white transition-colors cta-ar hidden">عن الطبيبة</a>
+                        <!-- Services Link -->
+                        <a href="/pages/services-&-treatments.html" class="block text-slate-400 hover:text-white transition-colors cta-fr">Services & Traitements</a>
+                        <a href="/pages/services-&-treatments.html" class="block text-slate-400 hover:text-white transition-colors cta-en hidden">Services & Treatments</a>
+                        <a href="/pages/services-&-treatments.html" class="block text-slate-400 hover:text-white transition-colors cta-ar hidden">الخدمات والعلاجات</a>
+                        <!-- New Patients Link -->
+                        <a href="/pages/new-patients.html" class="block text-slate-400 hover:text-white transition-colors cta-fr">Infos Nouveaux Patients</a>
+                        <a href="/pages/new-patients.html" class="block text-slate-400 hover:text-white transition-colors cta-en hidden">New Patients Info</a>
+                        <a href="/pages/new-patients.html" class="block text-slate-400 hover:text-white transition-colors cta-ar hidden">معلومات للمرضى الجدد</a>
+                        <!-- Contact Link -->
+                        <a href="/pages/contact-us.html" class="block text-slate-400 hover:text-white transition-colors cta-fr">Nous Contacter</a>
+                        <a href="/pages/contact-us.html" class="block text-slate-400 hover:text-white transition-colors cta-en hidden">Contact Us</a>
+                        <a href="/pages/contact-us.html" class="block text-slate-400 hover:text-white transition-colors cta-ar hidden">اتصل بنا</a>
+                    </nav>
+                </div>
+    
+                <!-- Section: الصفحات القانونية -->
+                <div>
+                    <h2 class="font-bold text-lg mb-4 cta-fr">Pages Légales</h2>
+                    <h2 class="font-bold text-lg mb-4 cta-en hidden">Legal Pages</h2>
+                    <h2 class="font-bold text-lg mb-4 cta-ar hidden">الصفحات القانونية</h2>
+                    <nav class="space-y-2">
+                        <!-- Privacy Link -->
+                        <a href="/pages/privacy-policy.html" class="block text-slate-400 hover:text-white transition-colors cta-fr">Politique de Confidentialité</a>
+                        <a href="/pages/privacy-policy.html" class="block text-slate-400 hover:text-white transition-colors cta-en hidden">Privacy Policy</a>
+                        <a href="/pages/privacy-policy.html" class="block text-slate-400 hover:text-white transition-colors cta-ar hidden">سياسة الخصوصية</a>
+                        <!-- Terms Link -->
+                        <a href="/pages/terms-of-use.html" class="block text-slate-400 hover:text-white transition-colors cta-fr">Conditions d'Utilisation</a>
+                        <a href="/pages/terms-of-use.html" class="block text-slate-400 hover:text-white transition-colors cta-en hidden">Terms of Use</a>
+                        <a href="/pages/terms-of-use.html" class="block text-slate-400 hover:text-white transition-colors cta-ar hidden">شروط الاستخدام</a>
+                        <!-- Disclaimer Link -->
+                        <a href="/pages/medical-disclaimer.html" class="block text-slate-400 hover:text-white transition-colors cta-fr">Avis de Non-Responsabilité</a>
+                        <a href="/pages/medical-disclaimer.html" class="block text-slate-400 hover:text-white transition-colors cta-en hidden">Medical Disclaimer</a>
+                        <a href="/pages/medical-disclaimer.html" class="block text-slate-400 hover:text-white transition-colors cta-ar hidden">إخلاء مسؤولية طبية</a>
+                    </nav>
+                </div>
+    
+               
+    
+            </div>
+            
+            <!-- Copyright Section -->
+            <div class="border-t border-slate-700 pt-8 mt-8 text-center text-slate-400">
+                 <p class="cta-fr">&copy; 2025 Dr. Chama Elmanjra. Tous droits réservés.</p>
+                 <p class="cta-en hidden">&copy; 2025 Dr. Chama Elmanjra. All rights reserved.</p>
+                 <p class="cta-ar hidden">&copy; 2025 الدكتورة شامة المنجرة. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Contact Modal HTML (from original file) -->
+    <div id="contact-modal-body" class="modal-overlay modal-hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 z-[100]">
+        <!-- ... (The full modal code from index.html is inserted here) ... -->
+    </div>
+    
+    <!-- Popup Blocker Alert HTML -->
+    <div id="popup-blocker-alert" class="fixed bottom-5 right-5 bg-red-600 text-white p-4 rounded-lg shadow-lg z-[200] hidden flex items-start gap-3 max-w-sm">
+        <!-- ... (The full alert code from index.html is inserted here) ... -->
+    </div>
+
+    <!-- Gooey Menu HTML & SVG -->
+    <div class="gooey-container">
+        <nav class="gooey-menu">
+            <div class="social-icon instagram"><a href="#" target="_blank" aria-label="Instagram Profile"><i class="fab fa-instagram text-xl"></i></a></div>
+            <div class="social-icon facebook"><a href="#" target="_blank" aria-label="Facebook Profile"><i class="fab fa-facebook-f text-xl"></i></a></div>
+            <div class="social-icon tiktok"><a href="#" target="_blank" aria-label="TikTok Profile"><i class="fab fa-tiktok text-xl"></i></a></div>
+            <div class="social-icon whatsapp"><a href="https://wa.me/212768356015" target="_blank" aria-label="Contact on WhatsApp"><i class="fab fa-whatsapp text-xl"></i></a></div>
+            <div class="main-fab-button shadow-lg"><i class="fas fa-plus text-2xl"></i></div>
+        </nav>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: none;"><defs><filter id="gooey-filter"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" /><feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -9" result="goo" /><feComposite in="SourceGraphic" in2="goo" operator="atop"/></filter></defs></svg>
+    
+     <!-- START: PWA Custom Install Prompt Banner -->
+<div id="pwa-install-banner" class="fixed bottom-0 left-0 right-0 bg-slate-800 text-white p-4 shadow-lg transform translate-y-full transition-transform duration-500 hidden z-50 md:bottom-0 md:left-auto md:right-4 md:rounded-lg md:max-w-md">
+    <div class="container mx-auto flex items-center justify-between gap-4">
+        <!-- قسم المعلومات -->
+        <div class="flex items-center flex-grow">
+            <img src="/assets/icons/icon-192x192.webp" alt="App Icon" class="rounded-full shadow-2xl mx-auto w-12 h-12 mr-3 flex-shrink-0">
+            <div>
+                <p class="font-bold cta-fr">Installer l'app de la clinique</p>
+                <p class="font-bold cta-en hidden">Install the clinic app</p>
+                <p class="font-bold cta-ar md:pr-2 hidden">تثبيت تطبيق العيادة</p>
+                
+                <p class="text-sm text-slate-300 cta-fr">Pour un accès rapide et hors ligne.</p>
+                <p class="text-sm text-slate-300 cta-en hidden">For quick and offline access.</p>
+                <p class="text-sm text-slate-300 cta-ar md:pr-2 hidden">للوصول السريع وبدون إنترنت.</p>
+            </div>
+        </div>
+        <!-- قسم الأزرار -->
+        <div class="flex items-center flex-shrink-0">
+            <button id="pwa-install-btn" class="bg-green-700 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg mr-2 text-sm">
+                <span class="cta-fr">Installer</span>
+                <span class="cta-en hidden">Install</span>
+                <span class="cta-ar hidden">تثبيت</span>
+            </button>
+            <button id="pwa-close-btn" aria-label="Close" class="absolute top-1 right-1 text-white opacity-70 hover:opacity-100 text-2xl leading-none">&times;</button>
+        </div>
+    </div>
+</div>
+<!-- END: PWA Custom Install Prompt Banner -->
+
+    <!-- Full JavaScript Logic (from original file, adapted) -->
+    <script src="/assets/js/script-mini.js" defer></script>
+</body>
+</html>
+

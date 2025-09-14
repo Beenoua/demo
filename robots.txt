@@ -1,0 +1,12 @@
+# robots.txt for Dr. Chama Elmanjra's Clinic Website
+# This file tells search engine crawlers which pages or files
+# the crawler can or can't request from your site.
+
+User-agent: *
+Allow: /
+
+# Disallow direct crawling of the PDF files directory
+Disallow: /resources/pdfs/
+
+# Sitemap location
+Sitemap: https://www.drchamaelmanjra.com/sitemap.xml
