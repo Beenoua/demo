@@ -35,22 +35,22 @@
     <!-- Swiper.js CSS -->
     <link rel="stylesheet" href="/assets/css/swiper.css" defer/>
     <link rel="stylesheet" href="/assets/css/style-mini.css" defer/>
-
-    <script type="application/ld+json">
+	<script type="application/ld+json">
         {
           "@context": "https://schema.org",
           "@graph": [
             {
               "@type": "Physician",
               "@id": "https://www.drchamaelmanjra.ma/#physician",
-              "name": {
-                "fr": "Dr. Chama Elmanjra",
-                "en": "Dr. Chama Elmanjra",
-                "ar": "الدكتورة شامة المنجرة"
-              },
+              "name": [
+        {"@language": "fr", "@value": "Dr. Chama Elmanjra"},
+        {"@language": "en", "@value": "Dr. Chama Elmanjra"},
+        {"@language": "ar", "@value": "الدكتورة شامة المنجرة"}
+      ],
               "image": "https://www.drchamaelmanjra.ma/images/Dr-Chama-ElManjra-Gastroentérologue-Hépatologue-et-Proctologue-à-Marrakech.webp",
-              "url": "https://www.drchamaelmanjra.ma/",
+              "url": "https://www.drchamaelmanjra.ma/", 
               "telephone": "+212524201211",
+              "priceRange": "$$",
               "medicalSpecialty": ["Gastroenterology","Hepatology","Proctology"],
               "description": {
                 "fr": "Dr. Chama Elmanjra est une spécialiste en Hépato-Gastro-Entérologie à Marrakech. Combinant expertise clinique et recherche académique active.",
@@ -77,13 +77,14 @@
             {
               "@type": "MedicalClinic",
               "@id": "https://www.drchamaelmanjra.ma/#clinic",
-              "name": {
-                "fr": "Cabinet Dr. Chama Elmanjra",
-                "en": "Dr. Chama Elmanjra Clinic",
-                "ar": "عيادة الدكتورة شامة المنجرة"
-              },
+              "name": [
+        {"@language": "fr", "@value": "Cabinet Dr. Chama Elmanjra"},
+        {"@language": "en", "@value": "Dr. Chama Elmanjra Clinic"},
+        {"@language": "ar", "@value": "عيادة الدكتورة شامة المنجرة"}
+      ],
               "image": "https://www.drchamaelmanjra.ma/images/gastroenterologist-consultation-treatment-stomach-diseases.webp",
               "url": "https://www.drchamaelmanjra.ma/",
+              "foundingDate": "2025-05-04",
               "telephone": ["+212524201211","+212772774500"],
               "priceRange": "$$",
               "address": {
@@ -162,7 +163,7 @@
                       "ar": "إذا كنت تعاني من آلام البطن، حرقة المعدة، تغييرات في عادات الأمعاء، فقدان وزن غير مبرر أو صعوبة في البلع."
                     }
                   }
-                }
+                },
                 {
                     "@type": "Question",
                     "name": {
@@ -423,10 +424,6 @@
           ]
         }
         </script>
-        
-    
-
-
 </head>
 <body class="bg-gray-50 text-gray-800">
 
@@ -2551,5 +2548,6 @@
 </body>
 
 </html>
+
 
 
